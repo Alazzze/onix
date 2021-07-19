@@ -152,7 +152,7 @@ a {
 .grid-item-bg {
   grid-area: a;
   background-color: #29333b;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/logo_2.png");
 }
 
 @media (max-width: 700px) {
@@ -174,14 +174,14 @@ a {
 
 .grid-item-beige {
   grid-area: d;
-  background-color: #f9edcc;
-  background-image: url("../img/bg-beige.jpg");
+  background-color: #3366FF;
+  background-image: url("../img/back_1.png");
 }
 
 .grid-item-black {
   grid-area: e;
-  background-color: #2a3139;
-  background-image: url("../img/bg-black.jpg");
+  background-color: #3366FF;
+  background-image: url("../img/back_1.png");
 }
 
 .grid-item-man {
@@ -193,7 +193,7 @@ a {
   min-height: 715px;
 
   background-color: #1e4659;
-  background-image: url("../img/bg-man.jpg");
+  background-image: url("../img/flowers.gif");
 }
 
 /*.grid-item-man h2 {
@@ -209,15 +209,15 @@ a {
 }*/
 
 .grid-item-navy {
-  grid-area: g;
+  grid-area: b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   min-height: 715px;
 
-  background-color: #556c6d;
-  background-image: url("../img/bg-gray.jpg");
+  background-color: #4397a9;
+  background-image: url("../img/back_2.png");
 }
 
 @media (max-width: 700px) {
@@ -354,4 +354,31 @@ a {
   .block {
     display: initial;
   }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
